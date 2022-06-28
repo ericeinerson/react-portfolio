@@ -21,22 +21,17 @@ function Contact() {
       <h2>Contact Me</h2>
       <div className='container contact__container'>
         <div className='contact__options'>
-          <article className='contact_option'>
+          <article className='contact__option'>
             <AiOutlineMail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>eaeiner@gmail.com</h5>
-            <a href="mailto:eaeiner@gmail.com" target="_blank">Send a Message</a>
+            <a href="mailto:eaeiner@gmail.com" target="_blank">Send an Email</a>
           </article>
-          <article className='contact_option'>
+          <article className='contact__option'>
             <AiOutlineLinkedin className="contact__option-icon"/>
             <h4>LinkedIn</h4>
             <h5>click</h5>
-            <a href="https://www.linkedin.com/in/eric-einerson/" target="_blank">Send a Message</a>
-          </article>
-          <article className='contact_option'>
-            <AiOutlineMail className="contact__option-icon"/>
-            <h4>Phone</h4>
-            <h5>+12625732037</h5>
+            <a href="https://www.linkedin.com/in/eric-einerson/" target="_blank">Send a LinkedIn Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
