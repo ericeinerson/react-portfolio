@@ -20,21 +20,21 @@ const data = [
     name: "Babux Namshir",
     review: "Eric is one of the most valuable people I have ever met. Both smart and professional during project meetings. Experienced, deadline-oriented, and intelligent person. Highly recommended"
   },
-  {
-    avatar: Avatar2,
-    name: "Name 2",
-    review: "Great!"
-  },
-  {
-    avatar: Avatar3,
-    name: "Name 3",
-    review: "Fantastic!"
-  },
-  {
-    avatar: Avatar4,
-    name: "Name 4",
-    review: "Cool!"
-  }
+  // {
+  //   avatar: Avatar2,
+  //   name: "Name 2",
+  //   review: "Great!"
+  // },
+  // {
+  //   avatar: Avatar3,
+  //   name: "Name 3",
+  //   review: "Fantastic!"
+  // },
+  // {
+  //   avatar: Avatar4,
+  //   name: "Name 4",
+  //   review: "Cool!"
+  // }
 ]
 
 function Testimonials() {

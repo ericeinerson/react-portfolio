@@ -20,22 +20,22 @@ function About() {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about_card">
+            <article className="about__card">
               <BsPerson class="about__icon"/>
               <h5>Development Experience</h5>
-              <small>0 Years Working</small>
+              <h4>0 Years</h4>
             </article>
 
-            <article className="about_card">
+            <article className="about__card">
               <FiUsers class="about__icon"/>
               <h5>Non-Development Experience</h5>
-              <small>14 Years Working</small>
+              <h4>14 Years</h4>
             </article>
 
-            <article className="about_card">
+            <article className="about__card">
               <VscFolderLibrary class="about__icon"/>
               <h5>Projects</h5>
-              <small>Project Count: 3</small>
+              <h4>Project Count: 3</h4>
             </article>
           </div>
 

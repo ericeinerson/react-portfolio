@@ -3,6 +3,9 @@ import "./footer.css"
 import {AiOutlineInstagram} from "react-icons/ai"
 import {BsLinkedin} from "react-icons/bs"
 import {AiFillGithub} from "react-icons/ai"
+import {ImBlogger2} from "react-icons/im"
+
+
 
 
 
@@ -24,7 +27,8 @@ function Footer() {
       <div className='footer__socials'>
         <a href="https://instagram.com"><AiOutlineInstagram /></a>
         <a href="https://www.linkedin.com/in/eric-einerson/" target="_blank"><BsLinkedin /></a>
-        <a href="https://github.com/ericeinerson" target="_blank"><AiFillGithub /></a>     
+        <a href="https://github.com/ericeinerson" target="_blank"><AiFillGithub /></a>   
+        <a href="https://dev.to/ericeinerson" target="_blank"><ImBlogger2 /></a>     
       </div>
 
       <div className='footer__copyright'>

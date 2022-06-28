@@ -13,7 +13,7 @@ function Services() {
             <h3>UI/UX Design</h3>
           </div>
 
-          <ul className="service__list">
+          {/* <ul className="service__list">
             <li>
               <AiFillCheckCircle className="service__list-icon" />
               <p>Service #1</p>
@@ -34,14 +34,14 @@ function Services() {
               <AiFillCheckCircle className="service__list-icon" />
               <p>Service #5</p>
             </li>
-          </ul>
+          </ul> */}
         </article>
         <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
 
-          <ul className="service__list">
+          {/* <ul className="service__list">
             <li>
               <AiFillCheckCircle className="service__list-icon" />
               <p>Service #1</p>
@@ -62,14 +62,14 @@ function Services() {
               <AiFillCheckCircle className="service__list-icon" />
               <p>Service #5</p>
             </li>
-          </ul>
+          </ul> */}
         </article>
         <article className="service">
           <div className="service__head">
             <h3>Content Creation</h3>
           </div>
 
-          <ul className="service__list">
+          {/* <ul className="service__list">
             <li>
               <AiFillCheckCircle className="service__list-icon" />
               <p>Service #1</p>
@@ -90,7 +90,7 @@ function Services() {
               <AiFillCheckCircle className="service__list-icon" />
               <p>Service #5</p>
             </li>
-          </ul>
+          </ul> */}
         </article>
       </div>
     </section>
