@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import ME from "../../Assets/self.jpeg"
-import {GrUserWorker} from "react-icons/gr"
+import {BsPerson} from "react-icons/bs"
 import {FiUsers} from "react-icons/fi"
 import {VscFolderLibrary} from "react-icons/vsc"
 
@@ -21,21 +21,21 @@ function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className="about_card">
-              <GrUserWorker class="about__icon"/>
-              <h5>Experience</h5>
-              <small># Years Working</small>
+              <BsPerson class="about__icon"/>
+              <h5>Development Experience</h5>
+              <small>0 Years Working</small>
             </article>
 
             <article className="about_card">
               <FiUsers class="about__icon"/>
-              <h5>Clients</h5>
-              <small># Clients</small>
+              <h5>Non-Development Experience</h5>
+              <small>14 Years Working</small>
             </article>
 
             <article className="about_card">
               <VscFolderLibrary class="about__icon"/>
               <h5>Projects</h5>
-              <small># Projects</small>
+              <small>Project Count: 6</small>
             </article>
           </div>
 
