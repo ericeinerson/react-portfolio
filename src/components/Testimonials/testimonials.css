@@ -1,5 +1,5 @@
 .container.testimonials__container {
-    width: 40%;
+    width: 50%;
     padding-bottom: 4rem;
 }
 
@@ -24,7 +24,7 @@
     color: var(--color-light);
     font-weight: 300;
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 0.8rem auto 0;
 }
 

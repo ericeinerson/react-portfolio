@@ -6,7 +6,7 @@ function Experience() {
   return (
     <section id="experience">
       <h5>What skills I have</h5>
-      <h2>My experience</h2>
+      <h2>My Experience...Currently Just Bootcamp/Codeacademy</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -23,7 +23,7 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>Vanilla JavaScript</h4>
-                <small className="text-light">BootcampExperience</small>
+                <small className="text-light">Bootcamp Experience</small>
               </div>
             </article>
             <article className="experience__details">
@@ -64,7 +64,7 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>SQL</h4>
-                <small className="text-light">BootcampExperience</small>
+                <small className="text-light">Bootcamp Experience</small>
               </div>
             </article>
           </div>

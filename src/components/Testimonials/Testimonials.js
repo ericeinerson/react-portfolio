@@ -17,8 +17,8 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: Avatar1,
-    name: "Name 1",
-    review: "Nice!"
+    name: "Babux Namshir",
+    review: "Eric is one of the most valuable people I have ever met. Both smart and professional during project meetings. Experienced, deadline-oriented, and intelligent person. Highly recommended"
   },
   {
     avatar: Avatar2,
@@ -43,7 +43,6 @@ function Testimonials() {
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
       <Swiper className='container testimonials__container'
-      // install Swiper modules
       modules={[Pagination]}
       spaceBetween={40}
       slidesPerView={1}
