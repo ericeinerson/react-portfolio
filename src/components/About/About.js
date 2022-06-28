@@ -35,7 +35,7 @@ function About() {
             <article className="about_card">
               <VscFolderLibrary class="about__icon"/>
               <h5>Projects</h5>
-              <small>Project Count: 6</small>
+              <small>Project Count: 3</small>
             </article>
           </div>
 
