@@ -14,8 +14,10 @@ function About() {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me-image">
-          <img src={ME} alt="About Image"/>
+        <div className='about__me'>
+          <div className="about__me-image">
+            <img src={ME} alt="About Image"/>
+          </div>
         </div>
 
         <div className="about__content">
@@ -40,7 +42,13 @@ function About() {
           </div>
 
           <p>
-            Check out my experience, clients, and projects!
+            Welcome to my page! I am fullstack developer with experience in front end and back end design, 
+            including Ruby on Rails, SQL, JavaScript, Angular, and React, and a background in healthcare, 
+            education and the biological sciences. I possess strong skills in leadership, teaching, 
+            and complex problem solving, and I have a passion for continual learning, including 
+            staying up to date with new technology. My strong work ethic, career longevity, 
+            and extensive educational background would positively impact a company’s teamwork, productivity, 
+            and versatility. 
           </p>
 
           <a href="contact" className="btn btn-primary">Let's Talk</a>
