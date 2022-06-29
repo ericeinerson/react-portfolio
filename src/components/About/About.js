@@ -21,7 +21,7 @@ function About() {
         </div>
 
         <div className="about__content">
-        
+
           <div className="about__cards">
             <article className="about__card">
               <BsPerson class="about__icon"/>
@@ -38,7 +38,7 @@ function About() {
             <article className="about__card">
               <VscFolderLibrary class="about__icon"/>
               <h5>Projects</h5>
-              <small>Project Count: 3</small>
+              <small>Project Count: 4</small>
             </article>
           </div>
 
