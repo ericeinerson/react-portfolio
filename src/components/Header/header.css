@@ -58,7 +58,7 @@ header {
 }
 
 /* ==============MEDIA QUERIES (MEDIUM DEVICES==========*/
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .header {
         height: 68vh;
     }
@@ -66,7 +66,7 @@ header {
 
 /* ==============MEDIA QUERIES (SMALL DEVICES==========*/
 
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
     .header {
         height: 100vh;
     }
