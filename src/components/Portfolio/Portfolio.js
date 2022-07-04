@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Eduhub",
+    title: "Coding-Module-Maker",
     github: "https://github.com/ericeinerson/eduhub",
     demo: "Need to complete"
   },
