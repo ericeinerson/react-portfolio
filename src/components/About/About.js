@@ -26,13 +26,13 @@ function About() {
             <article className="about__card">
               <BsPerson class="about__icon"/>
               <h5>Development Experience</h5>
-              <small>0 Years</small>
+              <small>Flatiron School Graduate</small>
             </article>
 
             <article className="about__card">
               <FiUsers class="about__icon"/>
               <h5>Non-Development Experience</h5>
-              <small>14 Years</small>
+              <small>Management, Education, Healthcare</small>
             </article>
 
             <article className="about__card">
@@ -43,13 +43,10 @@ function About() {
           </div>
 
           <p>
-            Welcome to my page! I am fullstack developer with experience in front end and back end design, 
-            including Ruby on Rails, SQL, JavaScript, Angular, and React, and a background in healthcare, 
-            education and the biological sciences. I possess strong skills in leadership, teaching, 
-            and complex problem solving, and I have a passion for continual learning, including 
-            staying up to date with new technology. My strong work ethic, career longevity, 
-            and extensive educational background would positively impact a company’s teamwork, productivity, 
-            and versatility. 
+            I am fullstack developer with experience in frontend and backend design, 
+            focusing on React.js, Node.js, and Ruby on Rails, as well as a background in 
+            healthcare and education. I possess strong skills in leadership, teaching, and 
+            problem solving, and I have a passion for continual learning. 
           </p>
 
           <a href="contact" className="btn btn-primary">Let's Talk</a>

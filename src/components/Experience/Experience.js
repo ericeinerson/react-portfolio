@@ -6,7 +6,7 @@ function Experience() {
   return (
     <section id="experience">
       <h5>What skills I have</h5>
-      <h2>My Experience...Currently Just Bootcamp/Codeacademy</h2>
+      <h2>My Experience</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -16,28 +16,28 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>React.js</h4>
-                <small className="text-light">Bootcamp Experience</small>
+                <small className="text-light">Flatiron School</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>Vanilla JavaScript</h4>
-                <small className="text-light">Bootcamp Experience</small>
+                <small className="text-light">Flatiron School</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Bootcamp Experience</small>
+                <small className="text-light">Flatiron School</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Codeacademy and Bootcamp</small>
+                <small className="text-light">Codeacademy and Flatiron School</small>
               </div>
             </article>
           </div>
@@ -50,7 +50,7 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>Ruby</h4>
-                <small className="text-light">Bootcamp Experience</small>
+                <small className="text-light">Flatiron School</small>
               </div>
             </article>
             <article className="experience__details">
@@ -64,7 +64,7 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>SQL</h4>
-                <small className="text-light">Bootcamp Experience</small>
+                <small className="text-light">Flatiron School</small>
               </div>
             </article>
           </div>
