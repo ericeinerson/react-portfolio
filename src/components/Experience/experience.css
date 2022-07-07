@@ -63,6 +63,9 @@
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
     }
 
     .experience__container > div {

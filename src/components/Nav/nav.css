@@ -31,3 +31,11 @@ nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+}

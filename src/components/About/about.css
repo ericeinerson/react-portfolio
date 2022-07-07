@@ -94,20 +94,24 @@
 @media screen and (max-width: 600px) {
     
     .about__me {
-        width: 65%;
+        /* width: 90%; */
         margin: 0 auto 3rem;
     }
 
     .about__cards {
+        width: 40vw;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
-    .about__content {
-        text-align: center;
+    .about__card {
+        width: 47vw;
     }
 
-    .about__content p {
-        margin: 1.5rem 0;
+    .about__content {
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
     }
 }

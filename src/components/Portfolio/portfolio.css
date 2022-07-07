@@ -44,6 +44,9 @@
 
 @media screen and (max-width: 600px) {
     .portfolio__container{
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
         grid-template-columns: 1fr;
         gap: 1rem;
     }
