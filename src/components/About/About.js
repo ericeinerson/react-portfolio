@@ -31,7 +31,7 @@ function About() {
 
             <article className="about__card">
               <FiUsers class="about__icon"/>
-              <h5>Non-Development Experience</h5>
+              <h5>Other Experience</h5>
               <small>Management, Education, Healthcare</small>
             </article>
 
@@ -41,14 +41,7 @@ function About() {
               <small>Project Count: 4</small>
             </article>
           </div>
-
-          <p>
-            I am fullstack developer with experience in frontend and backend design, 
-            focusing on React.js, Node.js, and Ruby on Rails, as well as a background in 
-            healthcare and education. I possess strong skills in leadership, teaching, and 
-            problem solving, and I have a passion for continual learning. 
-          </p>
-
+          
           <a href="contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

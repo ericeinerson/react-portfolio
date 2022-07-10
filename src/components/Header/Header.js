@@ -13,10 +13,12 @@ function Header() {
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
         <HeaderSocials />
-
-        <div className="me">
-          <img src={ME} alt="" />
-        </div>
+        <p>
+            I am fullstack developer with experience in frontend and backend design, 
+            focusing on React.js, Node.js, and Ruby on Rails, as well as a background in 
+            healthcare and education. I possess strong skills in leadership, teaching, and 
+            problem solving, and I have a passion for continual learning. 
+        </p>
 
         <a href="#contact" className="scroll__down">Scroll Down</a>
       </div>
