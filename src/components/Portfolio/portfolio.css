@@ -1,4 +1,5 @@
 .portfolio__container {
+    height: 150vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -17,36 +18,116 @@
     background: transparent;
 }
 
-.portolio__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
+.project__language {
+    text-decoration: underline;
 }
 
-.portfolio__item-image img {
+.portfolio__item-image {
     display: flex;
     aspect-ratio: 1/1;
-    width: 100%;
-    height: 100%;
-}
-
-.portolio__item-cta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
 }
 
 /* ==============MEDIA QUERIES (MEDIUM DEVICES==========*/
 @media screen and (max-width: 1024px) {
     .portfolio__container {
+        height: 100vh;
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem
     }
+
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+    .portfolio__container {
+        height: 220vh;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem
+    }
+
+}
+
+@media screen and (max-width: 800px) and (max-height: 1024px) {
+    .portfolio__container {
+        height: 125vh;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem
+    }
+
 }
 
 /* ==============MEDIA QUERIES (SMALL DEVICES==========*/
 
 @media screen and (max-width: 600px) {
     .portfolio__container{
+        height: 200vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) and (max-height: 750px) {
+    .portfolio__container {
+        height: 300vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (width: 540px) and (height: 720px) {
+    .portfolio__container {
+        height: 500vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-height: 925px) {
+    .portfolio__container {
+        height: 300vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .portfolio__container {
+        height: 400vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .portfolio__container {
+        height: 350vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .portfolio__container {
+        height: 350vh;
         width: 100%;
         overflow: hidden;
         margin: 0;
