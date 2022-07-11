@@ -1,5 +1,5 @@
 .portfolio__container {
-    height: 150vh;
+    height: 175vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
