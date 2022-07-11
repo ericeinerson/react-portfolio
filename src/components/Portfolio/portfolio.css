@@ -1,5 +1,5 @@
 .portfolio__container {
-    height: 175vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -32,7 +32,7 @@
 /* ==============MEDIA QUERIES (MEDIUM DEVICES==========*/
 @media screen and (max-width: 1024px) {
     .portfolio__container {
-        height: 100vh;
+        height: 200vh;
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem
     }
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 800px) and (max-height: 1024px) {
     .portfolio__container {
-        height: 125vh;
+        height: 200vh;
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem
     }

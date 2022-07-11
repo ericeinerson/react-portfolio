@@ -24,24 +24,24 @@ function About() {
 
           <div className="about__cards">
             <article className="about__card">
-              <BsPerson class="about__icon"/>
+              <BsPerson className="about__icon"/>
               <h5>Development Experience</h5>
               <small>Flatiron School Graduate</small>
             </article>
 
             <article className="about__card">
-              <FiUsers class="about__icon"/>
+              <FiUsers className="about__icon"/>
               <h5>Other Experience</h5>
               <small>Management, Education, Healthcare</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary class="about__icon"/>
+              <VscFolderLibrary className="about__icon"/>
               <h5>Projects</h5>
               <small>Project Count: 4</small>
             </article>
           </div>
-          
+
           <a href="contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

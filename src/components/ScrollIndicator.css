@@ -1,0 +1,19 @@
+.scroll__indicator {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.progress-bar {
+    height: 8px;
+    background: var(--color-primary);
+    width: 0%;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+}
