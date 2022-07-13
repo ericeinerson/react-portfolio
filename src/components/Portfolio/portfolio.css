@@ -6,6 +6,7 @@
 }
 
 .portolio__item {
+    margin: 100px;
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
@@ -19,14 +20,20 @@
 }
 
 .project__language {
+    margin: 10px;
     text-decoration: underline;
 }
 
 .portfolio__item-image {
+    margin: 10px;
     display: flex;
     aspect-ratio: 1/1;
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+.btn {
+    margin: 10px;
 }
 
 /* ==============MEDIA QUERIES (MEDIUM DEVICES==========*/
@@ -61,7 +68,7 @@
 
 @media screen and (max-width: 600px) {
     .portfolio__container{
-        height: 200vh;
+        height: 450vh;
         width: 100%;
         overflow: hidden;
         margin: 0;
@@ -94,7 +101,7 @@
 
 @media screen and (max-width: 500px) and (max-height: 925px) {
     .portfolio__container {
-        height: 300vh;
+        height: 400vh;
         width: 100%;
         overflow: hidden;
         margin: 0;
