@@ -12,10 +12,28 @@ import Footer from "../Footer/Footer"
 
 function Display() {
 
-    const [hidden, setHidden] = useState(true)
+    const [scroll, setScroll] = useState(0);
+    const [hidden, setHidden] = useState(false);
+
+    const handleScroll = () => {
+        let scrolled = document.documentElement.scrollTop;
+        let maxHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let scrollPercent = (scrolled / maxHeight) * 100;
+        setScroll(scrollPercent);
+
+        if (scroll>50){
+            setHidden(true);
+        }
+        else if (scroll<=50){
+            setHidden(false);
+        }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
   return (
     <>
-      <ScrollIndicator />
+      {!hidden && <ScrollIndicator scroll={scroll} />}
       <Header />
       <Nav />
       <About />

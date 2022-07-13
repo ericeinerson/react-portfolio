@@ -1,18 +1,7 @@
 import React, {useState} from 'react'
 import "./ScrollIndicator.css"
 
-function ScrollIndicator() {
-
-    const [scroll, setScroll] = useState(0);
-
-    const handleScroll = () => {
-        let scrolled = document.documentElement.scrollTop;
-        let maxHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        let scrollPercent = (scrolled / maxHeight) * 100;
-        setScroll(scrollPercent);
-    }
-    
-    window.addEventListener("scroll", handleScroll);
+function ScrollIndicator({scroll}) {
 
     return (
         <>
