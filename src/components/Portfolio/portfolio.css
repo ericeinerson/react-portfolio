@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 500px) and (max-height: 925px) {
     .portfolio__container {
-        height: 400vh;
+        height: 450vh;
         width: 100%;
         overflow: hidden;
         margin: 0;
