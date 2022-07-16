@@ -1,7 +1,27 @@
 header {
-    height: 70vh;
+    height: 80vh;
     padding-top: 7rem;
     overflow: hidden;
+}
+
+.toggle__btn {
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    width: max-content;
+    display: inline-block;
+    background-color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.toggle__btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
 }
 
 .header__container {
@@ -10,7 +30,7 @@ header {
     position: relative;
 }
 
-.cta {
+.cta{
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
@@ -39,7 +59,7 @@ header {
 /* ==============MEDIA QUERIES (MEDIUM DEVICES==========*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 65vh;
+        height: 75vh;
     }
 }
 

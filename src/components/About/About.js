@@ -27,6 +27,7 @@ function About() {
         </div>
 
         <div className="about__content">
+          <h3>Click To See More</h3>
           <div className="about__cards">
             <article
               className="about__card"
