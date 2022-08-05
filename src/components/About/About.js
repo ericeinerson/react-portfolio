@@ -35,7 +35,7 @@ function About() {
             >
               <BsPerson className="about__icon" />
               <h5>Development Experience</h5>
-              {showExperience && <small>Flatiron School Graduate</small>}
+              <small>Flatiron School Graduate</small>
             </article>
 
             <article
@@ -44,14 +44,14 @@ function About() {
             >
               <FiUsers className="about__icon" />
               <h5>Other Experience</h5>
-              {showOther && <small>Management, Education, Healthcare</small>}
+              <small>Management, Education, Healthcare</small>
             </article>
 
             <article
               className="about__card" onClick={() => setShowProject(!showProject)}>
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              {showProject && <small>Project Count: 4</small>}
+              <small>Project Count: 4</small>
             </article>
           </div>
 

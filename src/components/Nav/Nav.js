@@ -10,7 +10,6 @@ import ReactTooltip from "react-tooltip";
 function Nav() {
 
   const [activeNav, setActiveNav] = useState("#")
-  const [tooltip, setTooltip] = useState(true);
 
   return (
     <nav>
