@@ -42,7 +42,7 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     transition: var(--transition);
 }
@@ -108,12 +108,22 @@
 
     .about__card {
         width: 47vw;
+        font-size: small;
     }
 
     .about__content {
         text-align: center;
+        font-size: small;
         justify-content: center;
         width: 100%;
         position: relative;
+    }
+
+    .about__card small{
+        font-size: small;
+    }
+
+    .about__card h5 {
+        font-size: medium;
     }
 }

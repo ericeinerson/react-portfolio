@@ -5,7 +5,7 @@ import HeaderSocials from "./HeaderSocials"
 
 function Header() {
 
-  const [showSummary, setShowSummary] = useState(false);
+  const [showSummary, setShowSummary] = useState(true);
 
   const toggleSummary = () => {
     setShowSummary(!showSummary)
@@ -20,7 +20,7 @@ function Header() {
         <CTA />
         <HeaderSocials />
         <button className='toggle__btn'
-          onClick={ () => toggleSummary()}>{!showSummary ? "Show Summary" : "Hide Summary"}
+          onClick={ () => toggleSummary()}>{showSummary ? "Hide Summary" : "Show Summary"}
         </button>
         {!showSummary ? null 
           :
